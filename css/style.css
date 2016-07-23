@@ -220,6 +220,7 @@ h1, h2, h3, h4, h5, h6 {
 .tab-wrap .tab-menu li.active > a:after {
   height: 100%;
 }
+
 .tab-wrap .tab-content {
   padding-left: 4em;
   padding-right: 4em;
@@ -229,12 +230,14 @@ h1, h2, h3, h4, h5, h6 {
   visibility: hidden;
   width: 100%;
 }
+
 @media screen and (max-width: 768px) {
   .tab-wrap .tab-content {
     padding-left: .5em;
     padding-right: .5em;
   }
 }
+
 .tab-wrap .tab-content.active {
   opacity: 1;
   visibility: visible;
@@ -245,6 +248,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   position: relative;
 }
+
 @media screen and (max-width: 768px) {
   .tab-wrap .tab-content .content-inner {
     padding: 4em .5em 5em .5em;
@@ -263,32 +267,38 @@ figure {
   padding: 0;
   line-height: .7;
 }
+
 .counter .number.left {
   float: left;
   width: 30%;
 }
+
 @media screen and (max-width: 768px) {
   .counter .number.left {
     width: 100%;
     line-height: 1.2;
   }
 }
+
 .counter .text {
   float: right;
   text-align: left;
   width: 70%;
 }
+
 @media screen and (max-width: 768px) {
   .counter .text {
     width: 100%;
     text-align: center;
   }
 }
+
 .counter .text h3 {
   margin: 0;
   padding: 0;
   position: relative;
 }
+
 .counter .text h3.border-bottom:after {
   content: "";
   width: 50px;
@@ -299,6 +309,7 @@ figure {
   margin: 0;
   text-align: center;
 }
+
 .social li {
   padding: 0;
   margin: 0;
@@ -308,6 +319,7 @@ figure {
   zoom: 1;
   *display: inline;
 }
+
 .social li a {
   font-size: 22px;
   color: #fff;
@@ -321,14 +333,17 @@ figure {
   -ms-border-radius: 7px;
   border-radius: 7px;
 }
+
 @media screen and (max-width: 768px) {
   .social li a {
     padding: 10px 8px;
   }
 }
+
 .social li a:hover {
   color: #17e7a4;
 }
+
 .social li a:hover, .social li a:active, .social li a:focus {
   outline: none;
   text-decoration: none;
@@ -339,40 +354,48 @@ figure {
   width: 100%;
   float: left;
 }
+
 .feature .icon {
   float: left;
   width: 10%;
   display: block;
   margin-top: 5px;
 }
+
 .feature .icon i {
   color: #17e7a4;
   font-size: 40px;
 }
+
 .feature .text {
   float: right;
   width: 82%;
 }
+
 @media screen and (max-width: 768px) {
   .feature .text {
     width: 82%;
   }
 }
+
 @media screen and (max-width: 480px) {
   .feature .text {
     width: 72%;
   }
 }
+
 .feature .text h2, .feature .text h3 {
   margin: 0;
   padding: 0;
 }
+
 .feature .text h3 {
   font-weight: 300;
   margin-bottom: 10px;
   color: rgba(255, 255, 255, 0.8);
   font-size: 20px;
 }
+
 .feature .text h2 {
   font-size: 16px;
   letter-spacing: 2px;
@@ -387,6 +410,7 @@ figure {
   position: relative;
   text-align: center;
 }
+
 .chart span {
   position: absolute;
   top: 50%;
@@ -394,9 +418,11 @@ figure {
   margin-top: -30px;
   width: 100%;
 }
+
 .chart span strong {
   display: block;
 }
+
 .chart canvas {
   position: absolute;
   left: 0;
@@ -415,12 +441,15 @@ figure {
   padding: 20px 20px;
   line-height: 1.2;
 }
+
 #footer small {
   font-size: 14px;
 }
+
 #footer .author {
   display: block;
 }
+
 @media screen and (max-width: 768px) {
   #footer .author {
     display: -moz-inline-stack;
@@ -440,6 +469,7 @@ figure {
 .row-bottom-padded-lg {
   padding-bottom: 7em;
 }
+
 @media screen and (max-width: 768px) {
   .row-bottom-padded-lg {
     padding-bottom: 1em;
@@ -449,6 +479,7 @@ figure {
 .row-bottom-padded-md {
   padding-bottom: 4em;
 }
+
 @media screen and (max-width: 768px) {
   .row-bottom-padded-md {
     padding-bottom: 1em;
@@ -458,6 +489,7 @@ figure {
 .row-bottom-padded-sm {
   padding-bottom: 1em;
 }
+
 @media screen and (max-width: 768px) {
   .row-bottom-padded-sm {
     padding-bottom: 1em;
